@@ -13,7 +13,8 @@ Simple y sencillo, para verlo en accion solo clona el proyecto o descargalo, imp
 
 la clave este en el uso de 
 
-Browser.withPage("/SimplePollingSpringDWR/pageInit.html",
+
+	Browser.withPage("/SimplePollingSpringDWR/pageInit.html",
 					new Runnable() {
 						public void run() {
 							user.setId(String.valueOf(count));
@@ -26,4 +27,4 @@ Browser.withPage("/SimplePollingSpringDWR/pageInit.html",
 					}
 				);
 				
-	Saludos espero sea de utilidad 
+Saludos espero sea de utilidad 
